@@ -1,0 +1,33 @@
+
+.login-form {
+    font-family: 'Aclonica', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 6em;
+    justify-content: center;
+    position: flex;
+    margin: 20px;
+}
+
+.input-lg {
+    width: 260px;
+    height: 30px;
+    border: solid black;
+    border-radius: 6px;
+    margin: 10px;
+}
+.btn-primary {
+    width: 160px;
+    height: 30px;
+    border-radius: 6px;
+    margin: 10px;
+    color: black;
+    background-color: white;
+    border: solid black;
+    font-family: 'Chicle', cursive;
+    text-align: justify;
+}
+
+.count {
+    color: white;
+}
