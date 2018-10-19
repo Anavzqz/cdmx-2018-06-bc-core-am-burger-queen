@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthService } from '../../services/auth.service';
+import { Router } from '@angular/router';
+//import { FlashMessagesService } from 'angular2-flash-messages';
 
 @Component({
   selector: 'app-log-in',
@@ -6,27 +9,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./log-in.component.css']
 })
 export class LogInComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
-/*import { Component, OnInit } from '@angular/core';
-import { AuthService } from '../../../services/auth.service';
-import { Router } from '@angular/router';
-import { FlashMessagesService } from 'angular2-flash-messages';
-
-@Component({
-  selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
-})
-export class LoginComponent implements OnInit {
   public email: string;
   public password: string;
-  public flashMessage: FlashMessagesService
 
   constructor(
     public authService: AuthService,
@@ -36,15 +20,17 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
   }
 
+
+
+  //public flashMessage: FlashMessagesService
+
 onSubmitLogin() {
   this.authService.loginEmail(this.email, this.password)
   .then( (res) => {
-    this.flashMessage.show('Usuario creado.', 
-      {cssClass: 'alert-success', timeOut: 4000});
-    this.router.navigate(['/timeline']);
+    this.router.navigate(['/navbar']);
   }).catch((err) => {
-    this.flashMessage.show('Usuario no logueado.', 
-      {cssClass: 'alert-danger', timeOut: 5000});
-    this.router.navigate(['/login'])
+    console.log('error');
+    
   });
-};*/
+};
+}
