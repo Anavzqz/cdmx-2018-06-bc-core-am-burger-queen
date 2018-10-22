@@ -1,0 +1,14 @@
+.navbar {
+    height: 4em;
+}
+.navbar-dark {
+    background-color: #ED0000;
+}
+.textBurger {
+    color: white;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 4em;
+    padding-left: 0%;
+    margin-left: 0%;
+}

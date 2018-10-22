@@ -15,6 +15,7 @@ import { AuthService } from './services/auth.service';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AngularFireModule } from '@angular/fire';
 import { environment } from '../environments/environment';
+import { MenuComponent } from './componentes/menu/menu.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { environment } from '../environments/environment';
     BreakfastComponent,
     DinnerComponent,
     AdditionalComponent,
-    RegisterComponent
+    RegisterComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

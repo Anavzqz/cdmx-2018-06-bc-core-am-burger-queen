@@ -8,6 +8,7 @@ import { DinnerComponent } from './componentes/dinner/dinner.component';
 import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { RegisterComponent } from './componentes/register/register.component';
 import { AdditionalComponent } from './componentes/additional/additional.component';
+import { MenuComponent } from './componentes/menu/menu.component';
 
 const routes: Routes = [
   {path: '', component: LogInComponent},
@@ -15,7 +16,8 @@ const routes: Routes = [
   {path: 'dinner', component: DinnerComponent},
   {path: 'navbar', component: NavbarComponent},
   {path: 'register', component: RegisterComponent},
-  {path: 'additional', component:AdditionalComponent}
+  {path: 'additional', component:AdditionalComponent},
+  {path: 'menu', component: MenuComponent}
 ];
 
 @NgModule({

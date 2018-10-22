@@ -1,16 +1,20 @@
 <div class="container">
   <div class="row divs">
-    <div class="col-md-8">
+    <div class="col-md-8 col-lg-10 mx-auto">
+      <div class="text-center">
+        <span> <img src="../../../assets/burgerq.png"  class="logoBurger" alt="Burger Queen"></span>
+        <span> <h1 class="text-center">Burger Queen</h1></span>
+      </div>
       <form>
-      <section class="login-form mx-auto">
-        <h1>Burguer-queen</h1>
+      <section class="login-form">
+
         <div class="form-group">
           <input type="email" name="email" id="nameUser" [(ngModel)]="email" placeholder="Correo electrónico" required class="form-control input-lg" />
         </div>
         <div class="form-group">
           <input type="password" name="password" [(ngModel)]="password" class="form-control input-lg" id="password" placeholder="contraseña" required="" />
         </div>
-        <div class="col-md-4">       
+        <div class="col-md-6 offset-3">       
           <input type="button" name="signIn" (click)="onSubmitLogin()" value="Iniciar Sesión" class="btn btn-primary btn-block btn-lg">      
         </div>      
       </section>
