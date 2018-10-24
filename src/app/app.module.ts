@@ -17,6 +17,7 @@ import { AngularFireModule } from '@angular/fire';
 import { environment } from '../environments/environment';
 import { MenuComponent } from './componentes/menu/menu.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { ResetPaswordComponent } from './componentes/reset-pasword/reset-pasword.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     DinnerComponent,
     AdditionalComponent,
     RegisterComponent,
-    MenuComponent
+    MenuComponent,
+    ResetPaswordComponent
   ],
   imports: [
     BrowserModule,

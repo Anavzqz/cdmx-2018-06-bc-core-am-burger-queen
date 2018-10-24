@@ -6,12 +6,19 @@ import { map } from 'rxjs/operators';
 @Injectable({
   providedIn: 'root'
 })
+
 export class AuthService {
 
   constructor(
     public afAuth: AngularFireAuth
   ) { }
 
+   resetPassword(email: string) {
+    let auth = firebase.auth();
+    return auth.sendPasswordResetEmail(email)
+      .then(() => alert("Se ha enviado un link a tu correo para cambiar la contraseña"))
+      .catch((error) => console.log(error))
+  }
 
   loginEmail(email: string, password: string){
     return new Promise((resolve, reject) => {
@@ -29,3 +36,4 @@ export class AuthService {
     return this.afAuth.auth.signOut();
   }
 }
+
