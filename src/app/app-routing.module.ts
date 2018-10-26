@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
 
 import { LogInComponent } from './componentes/log-in/log-in.component';
-import { DinnerComponent } from './componentes/dinner/dinner.component';
 import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { RegisterComponent } from './componentes/register/register.component';
 import { AdditionalComponent } from './componentes/additional/additional.component';
@@ -13,7 +12,6 @@ import { ResetPaswordComponent } from './componentes/reset-pasword/reset-pasword
 
 const routes: Routes = [
   {path: '', component: LogInComponent},
-  {path: 'dinner', component: DinnerComponent},
   {path: 'navbar', component: NavbarComponent},
   {path: 'register', component: RegisterComponent},
   {path: 'additional', component:AdditionalComponent},

@@ -7,9 +7,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
-  constructor() { }
+  public isBreakfast: boolean;
+  public isDinner: boolean;
+
+  constructor() { };
 
   ngOnInit() {
-  }
+  };
 
+  breakfast() {
+    this.isBreakfast = true;
+    this.isDinner = false;
+  };
+
+  dinner() {
+    this.isDinner = true;
+    this.isBreakfast = false;
+  }
 }
