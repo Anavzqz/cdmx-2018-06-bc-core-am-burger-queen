@@ -1,0 +1,103 @@
+{
+  "configVersion": 1,
+  "index": "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/favicon.ico",
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/index.html",
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/main.adea13aa4367ed1b0cf7.js",
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/polyfills.f6ae3e8b63939c618130.js",
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/runtime.ec2944dd8b20ec099bf3.js",
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/styles.3ff695c00d717f2d2a11.css"
+      ],
+      "patterns": [
+        "https:\\/\\/stackpath\\.bootstrapcdn\\.com\\/bootstrap\\/4\\.1\\.3\\/css\\/bootstrap\\.min\\.css",
+        "https:\\/\\/use\\.fontawesome\\.com\\/releases\\/v5\\.4\\.1\\/css\\/all\\.css",
+        "https:\\/\\/code\\.jquery\\.com\\/jquery-3\\.3\\.1\\.slim\\.min\\.js",
+        "https:\\/\\/cdnjs\\.cloudflare\\.com\\/ajax\\/libs\\/popper\\.js\\/1\\.14\\.3\\/umd\\/popper\\.min\\.js",
+        "https:\\/\\/stackpath\\.bootstrapcdn\\.com\\/bootstrap\\/4\\.1\\.3\\/js\\/bootstrap\\.min\\.js"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/BEBIDA (AGUA) (17).png",
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/HAMBURGUESA DOBLE QUESO TOCINO.png",
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/HAMB_CLASICA_300x270.png",
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/aros.png",
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/burger.png",
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/burger2.png",
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/burgerq.png",
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-128x128.png",
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-144x144.png",
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-152x152.png",
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-192x192.png",
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-384x384.png",
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-512x512.png",
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-72x72.png",
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-96x96.png",
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/jugo.png",
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/large-cappuccino-whitemug-isolated.png",
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/limonadas-premium.png",
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/papas.png",
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/sandwich.png",
+        "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/taza_de_cafe.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/BEBIDA (AGUA) (17).png": "2437a4e25bd5dede30061da4fce5cd3e4bb46e88",
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/HAMBURGUESA DOBLE QUESO TOCINO.png": "c80abc71c5d6ed88cb50c1c0def4d2319eda5441",
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/HAMB_CLASICA_300x270.png": "c7a0ea320974b29e240729d62f301d2dd363fae9",
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/aros.png": "c13b142763793056cc82dcd1b2217286fe824fc3",
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/burger.png": "0b511b4a490302cafb1e3f091571d12eb1b82eea",
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/burger2.png": "c94efb4a70f3d01142644077006a8379eb06a3df",
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/burgerq.png": "4874d16fe23c643e72cfc6d06ac5761a649597e0",
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/jugo.png": "14c73289e1c7168da24c2831f4ed41bb7cfb4d21",
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/large-cappuccino-whitemug-isolated.png": "932656ba7bc93ca58214b99e0f7fcab568bd9741",
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/limonadas-premium.png": "2fb5a5b688c872d6433df36302969595754b51c4",
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/papas.png": "1a2239cd43d87b078e58d6c7c962cc09c6515b78",
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/sandwich.png": "05f4ee4ff89f72ef4104f65703de11f13de329b1",
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/taza_de_cafe.png": "2788742f14d9e89a8bb72628047ac879e78ced2b",
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/index.html": "4eb00957f855a0ed520d3f09364e210b827a5513",
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/main.adea13aa4367ed1b0cf7.js": "443fa8ec69b35e946533037161c886891ef6bc45",
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/polyfills.f6ae3e8b63939c618130.js": "ef2035f0504b4f77eac510c33595c81a5d09e33f",
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://anavzqz.github.io/cdmx-2018-06-bc-core-am-burger-queen/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
