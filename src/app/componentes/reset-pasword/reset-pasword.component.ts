@@ -9,7 +9,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./reset-pasword.component.css']
 })
 export class ResetPaswordComponent implements OnInit {
-
+  public email: string;
+  
   constructor(
     public authService: AuthService,
     public router: Router
