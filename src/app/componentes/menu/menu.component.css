@@ -5,3 +5,18 @@
     width: 2em;
     height: 2em;
 }
+.input-group, .menu1, .menu2, p {
+    margin: 6%;
+}
+.form-control {
+    border-color: #ED0000;
+}
+.btn-outline-secondary{
+    color: #ED0000;
+    border-color: #ED0000;
+}
+.btn-outline-secondary:hover {
+    background-color: #ED0000;
+    color: white;
+    border-color: white;
+}

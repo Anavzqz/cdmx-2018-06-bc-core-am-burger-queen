@@ -1,6 +1,10 @@
-.responsive {
-    width: 10em;
-    height: 10em;
-    margin: 0%;
+.bf {
+    margin: 2%;
     padding: 0%;
+    font-size: 1em;
+}
+.responsive {
+    text-align: center;
+    width: 3.5em;
+    height: 6em;
 }

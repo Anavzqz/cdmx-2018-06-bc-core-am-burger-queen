@@ -10,6 +10,17 @@
 <div class="menu1" *ngIf="isBreakfast">
   <app-breakfast></app-breakfast>
 </div>
-<div class="men2" *ngIf="isDinner">
+<div class="menu2" *ngIf="isDinner">
   <app-dinner></app-dinner>
+</div>
+<div class="row">
+  <div class="col-4">
+    <p>A nombre de quién será el pedido?</p>
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Nombre del cliente" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary" type="button" id="button-addon2">Aceptar</button>
+        </div>
+      </div>
+  </div>
 </div>

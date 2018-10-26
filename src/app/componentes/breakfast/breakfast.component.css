@@ -1,5 +1,8 @@
 .bf {
-    margin: 0%;
+    margin: 2%;
     padding: 0%;
     font-size: 1em;
+}
+.card-image-top {
+    font-size: 6em;
 }
